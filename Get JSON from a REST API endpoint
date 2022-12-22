@@ -1,0 +1,11 @@
+Get JSON from a REST API endpoint
+Now that you know how to access our Content Delivery API (CDA) token, open a browser window and access the CDA at cdn.contentful.com to request the content you created. Running the query below will return all the entries in a particular space as JSON.
+
+Instructions: 
+
+
+1. Copy and paste the URL below into your browser
+2. Replace {space_id} with your space ID
+3. Replace {access_token} with your access token
+
+cdn.contentful.com/spaces/{space_id}/entries?access_token={access_token}
